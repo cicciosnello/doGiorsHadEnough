@@ -55,9 +55,14 @@ class StreamingCommunity : MainAPI() {
     }
 
     private val sectionNamesList = mainPageOf(
-        "$mainUrl/browse/top10" to "Top 10 di oggi",
+       "$mainUrl/browse/top10" to "Top 10 di oggi",
         "$mainUrl/browse/trending" to "I Titoli Del Momento",
         "$mainUrl/browse/latest" to "Aggiunti di Recente",
+        "$mainUrl/archive?service=netflix" to "Netflix",
+        "$mainUrl/archive?service=prime" to "Prime",
+        "$mainUrl/archive?service=disney" to "Disney",
+        "$mainUrl/archive?service=apple" to "AppleTV",
+        "$mainUrl/archive?service=now" to "NowTV",
         "$mainUrl/browse/genre?g=Animation" to "Animazione",
         "$mainUrl/browse/genre?g=Adventure" to "Avventura",
         "$mainUrl/browse/genre?g=Action" to "Azione",
