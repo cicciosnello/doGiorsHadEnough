@@ -1,6 +1,3 @@
-# [PirateOfTheCaribbean](https://github.com/PirateOfTheCaribbean)'s Had Enough
-
-[Read in english](https://github.com/PirateOfTheCaribbean/DogesHadEnough/blob/master/README_en.md) <br><br>
 Anche io come doGior e sono stanco di cercare plugin per Cloudstream che finiscono per non funzionare, quindi ho fatto una mia patch on the fly
 
 ## Installazione
@@ -32,6 +29,3 @@ Questi sono i plugin disponibili al momento
 | YouTube            | https://www.youtube.com/                               |                Altro                |    🇺🇳    |        ❌        | Puoi incollare l'url di un canale o di una playlist nelle impostazioni del plugin per averli come sezioni nella homepage. Se li vuoi come "serie tv" abiliti i relativi plugin nella ricerca e cercali lì |
 
 [Tutte le repository per cloudstream](https://rentry.org/cs3-repos)
-
-## Donazioni
-[Supportami <3](https://buymeacoffee.com/dogior)

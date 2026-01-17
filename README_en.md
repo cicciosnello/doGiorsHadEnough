@@ -1,7 +1,4 @@
-# [doGior](https://github.com/doGior)'s Had Enough
-
-Hi, I'm doGior, and I've had enough of searching for Cloudstream plugins that end up broken or
-abandoned, so I decided to create my own repository.
+This is a personal fork of doGior's italian providers repo
 
 ## Install
 
@@ -34,7 +31,3 @@ These are the plugins available at the moment:
 | YouTube            | https://www.youtube.com/                               |                   Other                   |     🇺🇳     |      ❌      | You can paste the url of a channel or a playlists in the plugin settings to have it as a homepage section. If you want it as a "tv show" enable the relative plugin in the search and search its name |
 
 [All cloudstream repositories](https://rentry.org/cs3-repos)
-
-## Donations
-
-[Support me <3](https://buymeacoffee.com/dogior)
