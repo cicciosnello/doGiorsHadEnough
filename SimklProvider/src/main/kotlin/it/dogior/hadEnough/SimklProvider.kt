@@ -2,6 +2,7 @@ package it.dogior.hadEnough
 
 import com.lagradost.cloudstream3.LoadResponse
 import com.lagradost.cloudstream3.LoadResponse.Companion.addRating
+import com.lagradost.cloudstream3.LoadResponse.Companion.addScore
 import com.lagradost.cloudstream3.MainAPI
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.app
@@ -85,7 +86,7 @@ open class SimklProvider : MainAPI() {
             this.posterUrl = poster
             this.recommendations = recommendations
             this.year = year.toIntOrNull()
-            addRating(rating)
+            addScore(rating)
             duration?.let { this.duration = parseDurationToMinutes(it) }
         }
     }

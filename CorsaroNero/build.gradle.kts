@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.konan.properties.Properties
 
 // use an integer for version numbers
-version = 3
+version = 4
 
 
 cloudstream {
@@ -24,7 +24,7 @@ cloudstream {
     requiresResources = true
     language = "it"
 
-    iconUrl = "https://ilcorsaronero.link/favicon.ico"
+    iconUrl = "https://ilcorsaronero.link/assets/images/icon-dca0f2c8f780ee155024c67b63f5ebc5.svg"
 }
 
 android {

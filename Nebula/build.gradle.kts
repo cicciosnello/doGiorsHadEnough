@@ -1,11 +1,11 @@
 // use an integer for version numbers
-version = 13
+version = 1
 
 
 cloudstream {
     // All of these properties are optional, you can safely remove them
 
-    description = "Movies and Shows from CB01"
+    description = "Plugin to watch the free videos and ONLY THE FREE VIDEOS from nebula.tv"
     authors = listOf("doGior")
 
     /**
@@ -17,13 +17,10 @@ cloudstream {
     * */
     status = 1
 
-    tvTypes = listOf("Movie", "TvSeries", "Cartoon")
+    tvTypes = listOf("Others")
 
     requiresResources = false
-    language = "it"
+    language = "en"
 
-    iconUrl = "https://cb01.uno/apple-icon-180x180px.png"
-}
-dependencies{
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1")
+    iconUrl = "https://nebula.tv/apple-touch-icon.png"
 }
